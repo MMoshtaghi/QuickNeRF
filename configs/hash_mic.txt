@@ -1,0 +1,39 @@
+expname = hash_blender_mic
+basedir = ./logs
+datadir = /data/Data/NeRF_Data/nerf_synthetic/mic
+dataset_type = blender
+
+no_batching = True
+
+i_embed = 1
+i_embed_view = 2
+
+netdepth = 2
+netdepth_color = 3
+netwidth = 64
+netdepth_fine = 2
+netdepth_color_fine = 3
+netwidth_fine = 64
+
+use_viewdirs = True
+white_bkgd = True
+
+lrate = 0.002
+lrate_decay = 10
+
+N_samples = 64
+N_importance = 128
+N_rand = 4096
+
+chunk = 16384
+
+total_steps = 10000
+i_weights = 5000
+i_testset = 5000
+i_video = 10000
+i_print = 10
+
+log2_hashmap_size = 19
+finest_resolution = 65536
+
+half_res = True

@@ -1,0 +1,24 @@
+expname = baseline_blender_ship
+basedir = ./logs
+datadir = /data/Data/NeRF_Data/nerf_synthetic/ship
+dataset_type = blender
+
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+N_samples = 64
+N_importance = 128
+N_rand = 1024
+
+precrop_iters = 500
+precrop_frac = 0.5
+
+chunk = 16384
+
+total_steps = 50000
+i_testset = 10000
+
+half_res = True

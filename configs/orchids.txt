@@ -1,0 +1,19 @@
+expname = baseline_orchids_test
+basedir = ./logs
+datadir = /data/Data/NeRF_Data/nerf_llff_data/orchids
+dataset_type = llff
+
+factor = 8
+llffhold = 8
+
+N_rand = 1024
+N_samples = 64
+N_importance = 128
+
+chunk = 16384
+
+i_testset = 10000
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
