@@ -1,5 +1,8 @@
 # QuickNeRF
-A reimplementation of Hash Encoding in InstantNGP for NeRF with quick simplified intro to NeRF
+A reimplementation of Hash Encoding in InstantNGP for NeRF with a simplified intro to NeRF.
+
+Hash encoding is one of the tricks used by InstantNGP to reduce the training time for NeRF to seconds instead of hours!!
+For more information and background, we highly recommend you to go through the reefrences.
 
 ### Experiment Table
 
