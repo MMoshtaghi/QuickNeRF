@@ -25,9 +25,9 @@ Experiment with RTX 2060 Max-Q
 | 19   | 28.45 | 0.940 | 0.067 |
 | 21   | 28.55 | 0.943 | 0.061 |
 
-# Citation
+## Citation
 Kudos to the authors for their amazing results and code implementations:
-
+```
 @article{mueller2022instant,
     author = {Thomas M\"uller and Alex Evans and Christoph Schied and Alexander Keller},
     title = {Instant Neural Graphics Primitives with a Multiresolution Hash Encoding},
@@ -63,3 +63,4 @@ Kudos to the authors for their amazing results and code implementations:
   howpublished={\url{https://github.com/yenchenlin/nerf-pytorch/}},
   year={2020}
 }
+```
